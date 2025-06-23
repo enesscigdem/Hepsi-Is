@@ -8,9 +8,17 @@ export default function Home() {
         <title>Hepsiİş</title>
       </Head>
       <h1 className="text-5xl font-bold mb-4 text-primary">Hepsiİş</h1>
-      <Link href="/auth" className="text-secondary underline">
-        Giriş Yap
-      </Link>
+      <nav className="space-x-4">
+        <Link href="/auth" className="text-secondary underline">
+          Giriş Yap
+        </Link>
+        <Link href="/upload-cv" className="text-secondary underline">
+          CV Yükle
+        </Link>
+        <Link href="/search" className="text-secondary underline">
+          İlan Ara
+        </Link>
+      </nav>
     </div>
   )
 }
